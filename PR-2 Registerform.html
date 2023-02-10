@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Registration table</title>
+    </head>
+    <body>
+        <form method="post">
+            <table align="center">
+                <caption><h2>Register</h2></caption>
+            </table><hr><hr>
+            <label><b>Name*:-</b></label>
+            <input type="text" name="Surname" placeholder="First Name" minlength="2" maxlength="10" required>
+            <input type="text" name="Yourname" placeholder="Lastname" minlength="2" maxlength="10" required><hr>
+
+            <label><b>Phone:-</b></label>
+            <select>
+                    <option selected>+91</option>
+                    <option>+95</option>
+                    <option>+38</option>
+                    <option>+11</option>
+            </select>
+            <input type="number" name="Phone No"><br><hr>
+
+            <label><b>E-mail*:-</b></label>
+            <input type="email" name="Useremail" placeholder="example@gmail.com" required><br><hr>
+
+            <label><b>Address*:-</b></label>
+            <textarea cols="30" rows="4" required></textarea><br><hr>
+
+            <label><b>Gender:-</b></label>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Other<br><hr>
+
+            <label><b>Profile Photo:-</b></label>
+            <input type="file" name="Choose File" accept="image/*" multiple><br><hr>
+
+            <label><b>Birthday:-</b></label>
+            <input type="date" name="DOB"><br><hr>
+
+            <label><b>Hobby:-</b></label><br>
+            <input type="checkbox" name="1">Cricket<br>
+            <input type="checkbox" name="1" checked>Travelling<br>
+            <input type="checkbox" name="1">Reading<br>
+            <input type="checkbox" name="1">Music<br><hr><hr>
+            
+            <h4><center>Login Details</center></h4><hr><hr>
+
+            <label><b>User Name*:-</b></label>
+            <input type="text" name="Surname" minlength="2" maxlength="10" required><br><hr>
+
+            <label><b>Password*:-</b></label>
+            <input type="password" name="password" required><br><hr>
+
+            <label><b>Confirm Password*:-</b></label>
+            <input type="password" name="confirm password" required><br><hr><hr>
+
+            <input type="submit" name="b 1" value="SUBMIT">
+            <input type="reset" name="b 2" value="RESET"><hr>
+        </form>
+    </body>
+</html>
