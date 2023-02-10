@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <style>
+        table {
+            color: white;
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <fieldset>
+        <form method="post">
+            <table border="10" cellspacing="0" cellpadding="5" align="center">
+                <caption>
+                    <h2><u><i>Registration form</i></u></h2>
+                </caption>
+                <tr>
+                    <td><label>Surname:</label></td>
+                    <td><input type="text" name="Surname" placeholder="Enter your Surname" minlength="2" maxlength="10"
+                            required></td>
+                </tr>
+                <tr>
+                    <td><label>Middlename:</label></td>
+                    <td><input type="text" name="Middlename" placeholder="Enter your Middlename" minlength="2"
+                            maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td><label>Lastname:</label></td>
+                    <td><input type="text" name="Lastname" placeholder="Enter your Lastname" minlength="2"
+                            maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td><label>E-mail:</label></td>
+                    <td><input type="email" name="Useremail" placeholder="Enter your E-mailid"></td>
+                </tr>
+                <tr>
+                    <td><label>Address:</label></td>
+                    <td><textarea cols="40" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>password:</label></td>
+                    <td><input type="password" name="password" placeholder="Enter your password"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><input type="radio" name="Gender" checked>Male
+                        <input type="radio" name="Gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Hobbies:</label></td>
+                    <td><input type="checkbox" name="1" checked>Driving
+                        <input type="checkbox" name="1">Playing football
+                        <input type="checkbox" name="1">Drawing
+                        <input type="checkbox" name="1">Volleyboll
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Date:</label></td>
+                    <td><input type="date" name="DOB"></td>
+                </tr>
+                <tr>
+                    <td><label>Range:</label></td>
+                    <td><input type="range" name="Range" min="1" max="100"></td>
+                </tr>
+                <tr>
+                    <td><label>Search:</label></td>
+                    <td><input type="search" name="Search"></td>
+                </tr>
+                <tr>
+                    <td><label>Country Code:</label></td>
+                    <td><input type="text" minlength="2" maxlength="3" pattern="[a-zA-Z{3}]"></td>
+                </tr>
+                <tr>
+                    <td><label>Country:</label></td>
+                    <td>
+                        <select>
+                            <option>--Select Country--</option>
+                            <option value="India" selected>India</option>
+                            <option>USA</option>
+                            <option>UAE</option>
+                            <option>Russia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>File:</label></td>
+                    <td><input type="file" name="File" accept="image/*,.pdf,.doc" multiple></td>
+                </tr>
+                <tr>
+                    <td><label>Quantity of product:</label></td>
+                    <td><input type="number" name="Contact No" min="1" max="100"></td><label>Quantity of
+                        product:</label></td>
+                    <td><input type="number" name="Contact No" min="1" max="100"></td>
+                </tr>
+                <tr>
+                    <td><label>Telephone No:</label></td>
+                    <td><input type="tel" name="Telephone No" placeholder="000-22-444"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2"><input type="submit" name="button2" value="Submit">
+                        <input type="reset" name="buttor3" value="Reset">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
